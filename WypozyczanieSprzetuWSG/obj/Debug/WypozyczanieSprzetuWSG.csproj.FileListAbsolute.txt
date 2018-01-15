@@ -4,7 +4,6 @@ C:\Users\Olcia\source\repos\WypozyczanieSprzetuWSG\WypozyczanieSprzetuWSG\bin\De
 C:\Users\Olcia\source\repos\WypozyczanieSprzetuWSG\WypozyczanieSprzetuWSG\obj\Debug\WypozyczanieSprzetuWSG.Form1.resources
 C:\Users\Olcia\source\repos\WypozyczanieSprzetuWSG\WypozyczanieSprzetuWSG\obj\Debug\WypozyczanieSprzetuWSG.Properties.Resources.resources
 C:\Users\Olcia\source\repos\WypozyczanieSprzetuWSG\WypozyczanieSprzetuWSG\obj\Debug\WypozyczanieSprzetuWSG.csproj.GenerateResource.Cache
-C:\Users\Olcia\source\repos\WypozyczanieSprzetuWSG\WypozyczanieSprzetuWSG\obj\Debug\WypozyczanieSprzetuWSG.csproj.CoreCompileInputs.cache
 C:\Users\Olcia\source\repos\WypozyczanieSprzetuWSG\WypozyczanieSprzetuWSG\obj\Debug\WypozyczanieSprzetuWSG.exe
 C:\Users\Olcia\source\repos\WypozyczanieSprzetuWSG\WypozyczanieSprzetuWSG\obj\Debug\WypozyczanieSprzetuWSG.pdb
 C:\Users\Olcia\source\repos\WypozyczanieSprzetuWSG\WypozyczanieSprzetuWSG\obj\Debug\WypozyczanieSprzetuWSG.csprojResolveAssemblyReference.cache

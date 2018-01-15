@@ -172,18 +172,21 @@
             // 
             // dateTimePicker1
             // 
+            this.dateTimePicker1.CalendarFont = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.dateTimePicker1.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePicker1.Location = new System.Drawing.Point(216, 253);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(146, 27);
+            this.dateTimePicker1.Size = new System.Drawing.Size(146, 26);
             this.dateTimePicker1.TabIndex = 12;
             // 
             // dateTimePicker2
             // 
+            this.dateTimePicker2.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePicker2.Location = new System.Drawing.Point(216, 313);
             this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(146, 27);
+            this.dateTimePicker2.Size = new System.Drawing.Size(146, 26);
             this.dateTimePicker2.TabIndex = 13;
             // 
             // pictureBox1
@@ -213,6 +216,7 @@
             // btnAnuluj
             // 
             this.btnAnuluj.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(23)))), ((int)(((byte)(30)))));
+            this.btnAnuluj.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnAnuluj.FlatAppearance.BorderSize = 0;
             this.btnAnuluj.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAnuluj.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));

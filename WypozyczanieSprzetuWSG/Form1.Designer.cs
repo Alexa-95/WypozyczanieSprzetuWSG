@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
             this.btnStaleZlecenie = new System.Windows.Forms.Button();
             this.btnWypozycz = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -38,7 +39,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnClose = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -58,6 +58,16 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(302, 683);
             this.panel1.TabIndex = 0;
+            // 
+            // monthCalendar1
+            // 
+            this.monthCalendar1.BackColor = System.Drawing.SystemColors.Window;
+            this.monthCalendar1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.monthCalendar1.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.monthCalendar1.Location = new System.Drawing.Point(18, 465);
+            this.monthCalendar1.Name = "monthCalendar1";
+            this.monthCalendar1.TabIndex = 4;
+            this.monthCalendar1.TitleBackColor = System.Drawing.SystemColors.ActiveBorder;
             // 
             // btnStaleZlecenie
             // 
@@ -157,16 +167,6 @@
             this.dataGridView1.Size = new System.Drawing.Size(979, 538);
             this.dataGridView1.TabIndex = 3;
             // 
-            // monthCalendar1
-            // 
-            this.monthCalendar1.BackColor = System.Drawing.SystemColors.Window;
-            this.monthCalendar1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.monthCalendar1.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.monthCalendar1.Location = new System.Drawing.Point(18, 465);
-            this.monthCalendar1.Name = "monthCalendar1";
-            this.monthCalendar1.TabIndex = 4;
-            this.monthCalendar1.TitleBackColor = System.Drawing.SystemColors.ActiveBorder;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 25F);
@@ -180,6 +180,7 @@
             this.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(39)))), ((int)(((byte)(48)))));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
